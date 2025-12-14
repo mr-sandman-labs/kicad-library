@@ -158,7 +158,7 @@
 		(uuid "d7e33831-e437-47ed-aaf3-295590222dd9")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/kicad-components/3dmodels/ic/SN65HVD233-Q1.step"
+	(model "${KIPRJMOD}/kicad-library/3dmodels/ic/SN65HVD233-Q1.step"
 		(offset
 			(xyz 0 0 0)
 		)

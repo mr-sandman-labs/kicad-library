@@ -802,7 +802,7 @@
 		(uuid "b32078be-dc7d-4a90-a87b-2173a9791900")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/kicad-components/3dmodels/ic/STM32F405VGT7.step"
+	(model "${KIPRJMOD}/kicad-library/3dmodels/ic/STM32F405VGT7.step"
 		(offset
 			(xyz 0 0 0)
 		)

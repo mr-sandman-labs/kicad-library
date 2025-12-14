@@ -158,7 +158,7 @@
 		(uuid "12e8d528-8b0c-4cf0-ab42-229b43497ba1")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/kicad-components/3dmodels/connector/532614006.step"
+	(model "${KIPRJMOD}/kicad-library/3dmodels/connector/532614006.step"
 		(offset
 			(xyz 0 3.9 0.2)
 		)

@@ -116,7 +116,7 @@
 		(uuid "4164afe9-0b77-40a5-962f-c02f55a77a12")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/kicad-components/3dmodels/diode/D1213A-01T-7.step"
+	(model "${KIPRJMOD}/kicad-library/3dmodels/diode/D1213A-01T-7.step"
 		(offset
 			(xyz 0 0 0)
 		)

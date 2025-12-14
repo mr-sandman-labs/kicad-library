@@ -144,7 +144,7 @@
 		(uuid "d5384f37-eb01-4e8d-83a9-ce982f2c6893")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/kicad-components/3dmodels/diode/USBLC6-2P6.step"
+	(model "${KIPRJMOD}/kicad-library/3dmodels/diode/USBLC6-2P6.step"
 		(offset
 			(xyz 0 0 0)
 		)

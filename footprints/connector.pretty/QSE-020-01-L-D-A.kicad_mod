@@ -478,7 +478,7 @@
 		(uuid "cb966cfc-a50d-47b5-9b9d-951f9cf06e2b")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/kicad-components/3dmodels/connector/QSE-020-01-L-D-A.step"
+	(model "${KIPRJMOD}/kicad-library/3dmodels/connector/QSE-020-01-L-D-A.step"
 		(offset
 			(xyz 0 0 0)
 		)

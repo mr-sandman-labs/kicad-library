@@ -249,7 +249,7 @@
 		(uuid "629510b0-70fe-49c1-863b-1e55b0c245a3")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/kicad-components/3dmodels/connector/USB4105-GF-A-120.step"
+	(model "${KIPRJMOD}/kicad-library/3dmodels/connector/USB4105-GF-A-120.step"
 		(offset
 			(xyz 0 -4.1 0)
 		)
