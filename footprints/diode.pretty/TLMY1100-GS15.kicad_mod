@@ -1,0 +1,130 @@
+(footprint "TLMY1100-GS15"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 12.192 -13.976 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c852ce39-aeef-45b5-81f4-40e5b8d93de0")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TLMY1100-GS15"
+		(at 12.192 -12.676 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "550e16f0-dfc6-4b97-8f8c-b63c1dc1292f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "195c72e2-31fa-4d65-bd4e-bc8f9fbf84c9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "edac0de7-a477-4d46-ad99-eb287bdb60f2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -1.075 0)
+		(end -1.025 0)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "Dwgs.User")
+		(uuid "7957182d-584c-40f3-b72f-269c842b6908")
+	)
+	(fp_rect
+		(start -1.275 -0.725)
+		(end 1.275 0.725)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "bbef186a-9bd1-4250-baef-881d1c7dd0a2")
+	)
+	(fp_rect
+		(start -0.875 -0.475)
+		(end 0.875 0.475)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "bba2ba5c-b42b-45c0-88b0-aebf9b943151")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e2b2883b-b4c2-48ee-bb3c-dd049f04ac0c")
+		(effects
+			(font
+				(size 0.05 0.05)
+				(thickness 0.00625)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.725 0 180)
+		(size 0.6 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "adeb4d96-82fd-4274-85a2-65832148d3d4")
+	)
+	(pad "2" smd roundrect
+		(at 0.725 0 180)
+		(size 0.6 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "f19c0086-72aa-45d6-8b94-b80b61b0fe22")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/kicad-components/3dmodels/diode/TLMY1100-GS15.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -180 -0 -0)
+		)
+	)
+)
