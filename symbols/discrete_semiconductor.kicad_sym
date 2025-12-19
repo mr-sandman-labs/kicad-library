@@ -239,7 +239,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.477 0 0)
+				(at -6.35 0 0)
 				(length 5.715)
 				(name "B"
 					(effects
