@@ -1,0 +1,140 @@
+(footprint "MMBT2222ALT1G"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -12 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "afb970ff-43f2-438f-9338-c0882bd77ab3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "MMBT2222ALT1G"
+		(at 0 -10.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "88a6b7c7-dfcc-492d-a3b0-c8a635b93ea3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5a19c983-6d6a-4a4c-9e62-eb046f3f0cf7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2d300aa7-56fc-4302-a40e-eecc7e2c049b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -0.95 1.5)
+		(end -0.9 1.5)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "Dwgs.User")
+		(uuid "1643a497-d050-4fcb-87cd-de9bcc7ea782")
+	)
+	(fp_rect
+		(start -1.77 -1.7)
+		(end 1.77 1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "8408396c-0167-4e76-baef-35ae64517156")
+	)
+	(fp_rect
+		(start -1.52 -0.7)
+		(end 1.52 0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "022d061f-8a44-4d26-9928-4d238bf36e5b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7e44c177-406a-4bf5-a2d4-733afa83f343")
+		(effects
+			(font
+				(size 0.1 0.1)
+				(thickness 0.0125)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.95 0.975 90)
+		(size 0.95 0.56)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.24)
+		(thermal_bridge_angle 45)
+		(uuid "91a46a4c-018d-48eb-8e02-40f4a5616abe")
+	)
+	(pad "2" smd roundrect
+		(at 0.95 0.975 90)
+		(size 0.95 0.56)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.24)
+		(thermal_bridge_angle 45)
+		(uuid "a2d6ee6a-ba87-4908-815e-b22cd07a7959")
+	)
+	(pad "3" smd roundrect
+		(at 0 -0.975 90)
+		(size 0.95 0.56)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.24)
+		(thermal_bridge_angle 45)
+		(uuid "0bddd881-a47d-4c23-ba1f-243352b45d25")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/kicad-library/3dmodels/discrete_semiconductor/MMBT2222ALT1G.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
+)
