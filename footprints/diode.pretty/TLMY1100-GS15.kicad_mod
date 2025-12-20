@@ -116,7 +116,7 @@
 		(uuid "f19c0086-72aa-45d6-8b94-b80b61b0fe22")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/kicad-components/3dmodels/diode/TLMY1100-GS15.step"
+	(model "${KIPRJMOD}/kicad-library/3dmodels/diode/TLMY1100-GS15.step"
 		(offset
 			(xyz 0 0 0)
 		)
