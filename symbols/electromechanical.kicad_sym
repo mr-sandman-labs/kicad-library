@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "electromechanical:PTS647SN50SMTR2 LFS"
 			(at 0 -7.62 0)
 			(show_name)
 			(effects
