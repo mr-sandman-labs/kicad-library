@@ -163,6 +163,18 @@
 		(layer "F.Fab")
 		(uuid "09c99255-6152-4dbf-9f49-58616d26784a")
 	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "01a12741-ca72-4dc0-ab5c-0413b42496df")
+		(effects
+			(font
+				(size 0.1 0.1)
+				(thickness 0.0125)
+			)
+		)
+	)
 	(pad "" np_thru_hole circle
 		(at -9.24 -2.04)
 		(size 1.02 1.02)
