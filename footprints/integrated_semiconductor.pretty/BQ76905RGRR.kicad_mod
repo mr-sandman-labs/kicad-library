@@ -230,7 +230,7 @@
 		(roundrect_rratio 0.2083333333)
 		(uuid "0ffd8d8f-9231-48ea-a5c0-dc58ed4feee6")
 	)
-	(pad "EP" thru_hole circle
+	(pad "21" thru_hole circle
 		(at -0.775 0 90)
 		(size 0.5 0.5)
 		(drill 0.2)
@@ -238,21 +238,21 @@
 		(remove_unused_layers no)
 		(uuid "0dcb5c7e-3589-4a4b-bd78-4a2eca06adcc")
 	)
-	(pad "EP" smd roundrect
+	(pad "21" smd roundrect
 		(at -0.56 -0.56 90)
 		(size 0.92 0.92)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.05434782609)
 		(uuid "70089d37-e812-42a6-be60-2e73f1458a89")
 	)
-	(pad "EP" smd roundrect
+	(pad "21" smd roundrect
 		(at -0.56 0.56 90)
 		(size 0.92 0.92)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.05434782609)
 		(uuid "242b6abb-2396-421b-b11a-d397967fb8c5")
 	)
-	(pad "EP" thru_hole circle
+	(pad "21" thru_hole circle
 		(at 0 -0.775 90)
 		(size 0.5 0.5)
 		(drill 0.2)
@@ -260,7 +260,7 @@
 		(remove_unused_layers no)
 		(uuid "97e3db9a-df67-4b84-b17e-dcd561485217")
 	)
-	(pad "EP" thru_hole circle
+	(pad "21" thru_hole circle
 		(at 0 0 90)
 		(size 0.5 0.5)
 		(drill 0.2)
@@ -268,14 +268,7 @@
 		(remove_unused_layers no)
 		(uuid "cdae731f-2334-4c76-8993-bf2ea51d82e9")
 	)
-	(pad "EP" smd roundrect
-		(at 0 0 90)
-		(size 2.05 2.05)
-		(layers "F.Cu" "F.Mask")
-		(roundrect_rratio 0.0243902439)
-		(uuid "cb65f952-afe4-42a5-b77d-f29115ed4bd1")
-	)
-	(pad "EP" thru_hole circle
+	(pad "21" thru_hole circle
 		(at 0 0.775 90)
 		(size 0.5 0.5)
 		(drill 0.2)
@@ -283,27 +276,34 @@
 		(remove_unused_layers no)
 		(uuid "64b7a51a-7b44-47ca-9f03-cdc2a32fc784")
 	)
-	(pad "EP" smd roundrect
+	(pad "21" smd roundrect
 		(at 0.56 -0.56 90)
 		(size 0.92 0.92)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.05434782609)
 		(uuid "c9165cf8-40f7-4401-84c3-674a83310437")
 	)
-	(pad "EP" smd roundrect
+	(pad "21" smd roundrect
 		(at 0.56 0.56 90)
 		(size 0.92 0.92)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.05434782609)
 		(uuid "b3676b4d-46c0-46c4-8f42-6698361898e1")
 	)
-	(pad "EP" thru_hole circle
+	(pad "21" thru_hole circle
 		(at 0.775 0 90)
 		(size 0.5 0.5)
 		(drill 0.2)
 		(layers "*.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "b6f44aa2-8962-44cd-a180-cda3e4c1693d")
+	)
+	(pad "EP" smd roundrect
+		(at 0 0 90)
+		(size 2.05 2.05)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.0243902439)
+		(uuid "cb65f952-afe4-42a5-b77d-f29115ed4bd1")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/kicad-library/3dmodels/integrated_semiconductor/BQ76905RGRR.step"
