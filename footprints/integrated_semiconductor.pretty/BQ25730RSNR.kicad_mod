@@ -314,7 +314,7 @@
 		(roundrect_rratio 0.25)
 		(uuid "ab1e5cc4-cdcf-4c6c-8407-253fe8f05156")
 	)
-	(pad "MountingPad" thru_hole circle
+	(pad "33" thru_hole circle
 		(at -1.15 0)
 		(size 0.5 0.5)
 		(drill 0.2)
@@ -322,21 +322,21 @@
 		(remove_unused_layers no)
 		(uuid "59b8a23a-7a0b-469e-a006-740928ea6963")
 	)
-	(pad "MountingPad" smd roundrect
+	(pad "33" smd roundrect
 		(at -0.715 -0.715)
 		(size 1.23 1.23)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.025)
 		(uuid "f51d03af-84ac-4a29-a207-9c64799c7eb3")
 	)
-	(pad "MountingPad" smd roundrect
+	(pad "33" smd roundrect
 		(at -0.715 0.715)
 		(size 1.23 1.23)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.025)
 		(uuid "ea5aaee3-8b69-45a6-8fb2-ffe2443aca49")
 	)
-	(pad "MountingPad" thru_hole circle
+	(pad "33" thru_hole circle
 		(at 0 -1.15)
 		(size 0.5 0.5)
 		(drill 0.2)
@@ -344,7 +344,7 @@
 		(remove_unused_layers no)
 		(uuid "8673874f-7777-49fb-af49-4ef9c8b88bca")
 	)
-	(pad "MountingPad" thru_hole circle
+	(pad "33" thru_hole circle
 		(at 0 0)
 		(size 0.5 0.5)
 		(drill 0.2)
@@ -352,14 +352,14 @@
 		(remove_unused_layers no)
 		(uuid "a12624a5-45b5-4627-b7ee-4119d790a687")
 	)
-	(pad "MountingPad" smd roundrect
+	(pad "33" smd roundrect
 		(at 0 0)
 		(size 2.8 2.8)
 		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.025)
 		(uuid "6909e2c4-f81d-40da-a6dd-6e8cd7d99db7")
 	)
-	(pad "MountingPad" thru_hole circle
+	(pad "33" thru_hole circle
 		(at 0 1.15)
 		(size 0.5 0.5)
 		(drill 0.2)
@@ -367,21 +367,21 @@
 		(remove_unused_layers no)
 		(uuid "1c460c08-3e50-4c3f-ba44-4244d420693d")
 	)
-	(pad "MountingPad" smd roundrect
+	(pad "33" smd roundrect
 		(at 0.715 -0.715)
 		(size 1.23 1.23)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.025)
 		(uuid "2a3e7366-e33c-480f-a2e5-272f1dcfaede")
 	)
-	(pad "MountingPad" smd roundrect
+	(pad "33" smd roundrect
 		(at 0.715 0.715)
 		(size 1.23 1.23)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.025)
 		(uuid "09241b02-e830-45ac-98e9-ab4a780a3bdd")
 	)
-	(pad "MountingPad" thru_hole circle
+	(pad "33" thru_hole circle
 		(at 1.15 0)
 		(size 0.5 0.5)
 		(drill 0.2)
