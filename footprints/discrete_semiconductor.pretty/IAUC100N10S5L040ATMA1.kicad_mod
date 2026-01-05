@@ -1,0 +1,261 @@
+(footprint "IAUC100N10S5L040ATMA1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "479989e5-e2b5-482b-bb11-a865ea7290a3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "IAUC100N10S5L040ATMA1"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "71bce575-bf85-4e29-ad4b-df22cc14957f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c89224ea-19ce-4791-8888-4e350ef81239")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e5e2e54e-6d29-48ea-8457-2d4b4f139718")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -0.635 3.82)
+		(end -0.585 3.82)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "Dwgs.User")
+		(uuid "25500900-9f5f-4598-a779-a39398497c1a")
+	)
+	(fp_rect
+		(start -2.825 -4.02)
+		(end 2.825 4.02)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "1e6b168a-5ad1-4eed-9f61-d00385f62c5a")
+	)
+	(fp_rect
+		(start -2.625 -2.74)
+		(end 2.525 2.74)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "b804b005-7fd7-4460-ac9b-47c008989c62")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 1.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0ef21a89-d757-4f06-b4e7-06ba4ae05cf9")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.05)
+			)
+		)
+	)
+	(pad "D" smd roundrect
+		(at -1.905 -3.12)
+		(size 0.5 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.01133786848)
+		(uuid "116df8ad-ef12-40d8-856f-a1045473ec31")
+	)
+	(pad "D" smd roundrect
+		(at -0.85 -1.495)
+		(size 1.5 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.01133786848)
+		(uuid "f5de7e23-05ee-4b63-a3a5-aa05127d6fdd")
+	)
+	(pad "D" smd roundrect
+		(at -0.85 0.205)
+		(size 1.5 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.01133786848)
+		(uuid "8f39b001-3904-4dfb-a409-eebc536ea295")
+	)
+	(pad "D" smd roundrect
+		(at -0.635 -3.12)
+		(size 0.5 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.01133786848)
+		(uuid "4b1ce064-3e29-4a67-ba7c-2be389749d27")
+	)
+	(pad "D" smd roundrect
+		(at 0 -1.3225)
+		(size 4.41 4.895)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.01133786848)
+		(uuid "33bca1cc-0bc5-4810-bf59-dacaf6c4363c")
+	)
+	(pad "D" smd roundrect
+		(at 0.635 -3.12)
+		(size 0.5 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.01133786848)
+		(uuid "50fc06a5-e71f-48a3-894c-58f61913f02c")
+	)
+	(pad "D" smd roundrect
+		(at 0.85 -1.495)
+		(size 1.5 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.01133786848)
+		(uuid "08cceba3-2a1e-4f5b-a31f-e95ff36ecc63")
+	)
+	(pad "D" smd roundrect
+		(at 0.85 0.205)
+		(size 1.5 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.01133786848)
+		(uuid "1601cd34-f06c-4538-a23f-f8aa9e4b1f3e")
+	)
+	(pad "D" smd roundrect
+		(at 1.905 -3.12)
+		(size 0.5 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.01133786848)
+		(uuid "bc2f12cd-97ce-4018-96c5-6b319963004c")
+	)
+	(pad "G" smd roundrect
+		(at 1.905 3.02)
+		(size 0.6 1.5)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.08333333333)
+		(uuid "940f8afc-5d1d-46e4-99dd-f0f593a6cb76")
+	)
+	(pad "G" smd roundrect
+		(at 1.905 3.12)
+		(size 0.5 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.08333333333)
+		(uuid "3d6bc913-3ecb-4f14-91c8-9a01c3d78199")
+	)
+	(pad "S" smd roundrect
+		(at -1.905 3.345)
+		(size 0.5 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.03333333333)
+		(uuid "5b9e599a-c50b-4a0a-a253-05e88281042a")
+	)
+	(pad "S" smd roundrect
+		(at -1.73 2.545 180)
+		(size 0.85 0.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.03333333333)
+		(uuid "1ffb8124-5cd3-4c47-ac9e-9170d5fc41d7")
+	)
+	(pad "S" smd roundrect
+		(at -0.635 2.545 180)
+		(size 0.85 0.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.03333333333)
+		(uuid "daa33a23-bd56-4913-8444-992bce4115bc")
+	)
+	(pad "S" smd roundrect
+		(at -0.635 3.02)
+		(size 3.14 1.5)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.03333333333)
+		(uuid "a9ba77f4-2d1d-41cf-a2b7-f324be7d2aff")
+	)
+	(pad "S" smd roundrect
+		(at -0.635 3.345)
+		(size 0.5 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.03333333333)
+		(uuid "05fb1ee9-6594-4367-96cf-8c130304fbab")
+	)
+	(pad "S" smd roundrect
+		(at 0.46 2.545 180)
+		(size 0.85 0.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.03333333333)
+		(uuid "924adb47-3583-43e8-a9ff-b1767b07c679")
+	)
+	(pad "S" smd roundrect
+		(at 0.635 3.345)
+		(size 0.5 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.03333333333)
+		(uuid "cec9be85-9856-4e34-bbbf-fd05388b5b9e")
+	)
+	(group ""
+		(uuid "1bbf8086-a59f-412e-86ec-bfb6433d4ed8")
+		(members "05fb1ee9-6594-4367-96cf-8c130304fbab" "1ffb8124-5cd3-4c47-ac9e-9170d5fc41d7"
+			"5b9e599a-c50b-4a0a-a253-05e88281042a" "924adb47-3583-43e8-a9ff-b1767b07c679"
+			"cec9be85-9856-4e34-bbbf-fd05388b5b9e" "daa33a23-bd56-4913-8444-992bce4115bc"
+		)
+	)
+	(group ""
+		(uuid "bda47b7f-0734-44da-9d79-ee125838be60")
+		(members "116df8ad-ef12-40d8-856f-a1045473ec31" "4b1ce064-3e29-4a67-ba7c-2be389749d27"
+			"50fc06a5-e71f-48a3-894c-58f61913f02c" "bc2f12cd-97ce-4018-96c5-6b319963004c"
+		)
+	)
+	(group ""
+		(uuid "bf17c456-4e24-4779-860d-84bc8ec7aaf1")
+		(members "08cceba3-2a1e-4f5b-a31f-e95ff36ecc63" "1601cd34-f06c-4538-a23f-f8aa9e4b1f3e"
+			"8f39b001-3904-4dfb-a409-eebc536ea295" "f5de7e23-05ee-4b63-a3a5-aa05127d6fdd"
+		)
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/kicad-library/3dmodels/discrete_semiconductor/IAUC100N10S5L040ATMA1.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
+)
