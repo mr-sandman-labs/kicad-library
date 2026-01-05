@@ -26,6 +26,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "discrete_semiconductor:IAUC100N10S5L040ATMA1"
@@ -9480,6 +9481,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "discrete_semiconductor:MMBT2222ALT1G"
