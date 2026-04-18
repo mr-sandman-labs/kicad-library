@@ -191,7 +191,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "[TOLERANCE]%"
+		(property "Tolerance" "±[TOLERANCE]%"
 			(at 0 -26.67 0)
 			(show_name yes)
 			(do_not_autoplace no)
