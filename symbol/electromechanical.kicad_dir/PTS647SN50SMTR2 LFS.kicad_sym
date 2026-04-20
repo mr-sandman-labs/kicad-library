@@ -16,7 +16,7 @@
 		(property "Reference" "SW"
 			(at 0 3.81 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
