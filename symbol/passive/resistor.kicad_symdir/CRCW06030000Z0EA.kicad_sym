@@ -136,7 +136,7 @@
 				)
 			)
 		)
-		(property "Temperature Coefficient" ""
+		(property "Temperature Coefficient" "N/A"
 			(at 0 -34.29 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -194,6 +194,17 @@
 		(property "Mass" "0.002g"
 			(at 0 -46.99 0)
 			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "R_0603*"
+			(at 0 0 0)
+			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects
