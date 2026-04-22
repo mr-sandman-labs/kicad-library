@@ -195,8 +195,8 @@
 				)
 			)
 			(pin output line
-				(at 8.89 2.54 180)
-				(length 2.54)
+				(at 11.43 2.54 180)
+				(length 5.08)
 				(name "PG"
 					(effects
 						(font
@@ -213,8 +213,8 @@
 				)
 			)
 			(pin input line
-				(at 8.89 0 180)
-				(length 2.54)
+				(at 11.43 0 180)
+				(length 5.08)
 				(name "FB"
 					(effects
 						(font
@@ -231,8 +231,8 @@
 				)
 			)
 			(pin power_in line
-				(at 8.89 -2.54 180)
-				(length 2.54)
+				(at 11.43 -2.54 180)
+				(length 5.08)
 				(name "AGND"
 					(effects
 						(font
@@ -249,8 +249,8 @@
 				)
 			)
 			(pin input line
-				(at -8.89 -5.08 0)
-				(length 2.54)
+				(at -11.43 -5.08 0)
+				(length 5.08)
 				(name "FSW"
 					(effects
 						(font
@@ -267,8 +267,8 @@
 				)
 			)
 			(pin input line
-				(at -8.89 -2.54 0)
-				(length 2.54)
+				(at -11.43 -2.54 0)
+				(length 5.08)
 				(name "DEF"
 					(effects
 						(font
@@ -285,8 +285,8 @@
 				)
 			)
 			(pin input line
-				(at -8.89 0 0)
-				(length 2.54)
+				(at -11.43 0 0)
+				(length 5.08)
 				(name "SS/TR"
 					(effects
 						(font
@@ -303,8 +303,8 @@
 				)
 			)
 			(pin power_in line
-				(at -8.89 5.08 0)
-				(length 2.54)
+				(at -11.43 5.08 0)
+				(length 5.08)
 				(name "AVIN"
 					(effects
 						(font
@@ -321,8 +321,8 @@
 				)
 			)
 			(pin input line
-				(at -8.89 2.54 0)
-				(length 2.54)
+				(at -11.43 2.54 0)
+				(length 5.08)
 				(name "EN"
 					(effects
 						(font
@@ -339,8 +339,8 @@
 				)
 			)
 			(pin input line
-				(at 8.89 5.08 180)
-				(length 2.54)
+				(at 11.43 5.08 180)
+				(length 5.08)
 				(name "VOS"
 					(effects
 						(font
@@ -357,8 +357,8 @@
 				)
 			)
 			(pin power_in line
-				(at 8.89 -7.62 180)
-				(length 2.54)
+				(at 11.43 -7.62 180)
+				(length 5.08)
 				(name "EP"
 					(effects
 						(font
@@ -375,8 +375,8 @@
 				)
 			)
 			(pin power_out line
-				(at 8.89 7.62 180)
-				(length 2.54)
+				(at 11.43 7.62 180)
+				(length 5.08)
 				(name "SW"
 					(effects
 						(font
@@ -393,8 +393,8 @@
 				)
 			)
 			(pin power_in line
-				(at -8.89 7.62 0)
-				(length 2.54)
+				(at -11.43 7.62 0)
+				(length 5.08)
 				(name "PVIN"
 					(effects
 						(font
@@ -411,8 +411,8 @@
 				)
 			)
 			(pin power_in line
-				(at 8.89 -5.08 180)
-				(length 2.54)
+				(at 11.43 -5.08 180)
+				(length 5.08)
 				(name "PGND"
 					(effects
 						(font
