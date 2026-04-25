@@ -28,7 +28,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ic_digital_mcu:STM32F405VGT7"
+		(property "Footprint" "ic_mcu:STM32F405VGT7"
 			(at 0 -25.4 0)
 			(show_name yes)
 			(do_not_autoplace no)
