@@ -56,7 +56,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode LED ${COLOR} Vf ${FORWARD VOLTAGE} If ${FORWARD CURRENT} Vr ${REVERSE VOLTAGE} ${MINIMUM TEMPERATURE} ${MAXIMUM TEMPERATURE} ${PACKAGE} ${RATINGS}"
+		(property "Description" "Diode LED ${COLOR} V_{F} ${FORWARD VOLTAGE} I_{F} ${FORWARD CURRENT} V_{R} ${REVERSE VOLTAGE} ${MINIMUM TEMPERATURE} ${MAXIMUM TEMPERATURE} ${PACKAGE} ${RATINGS}"
 			(at 0 -2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
