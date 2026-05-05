@@ -2,20 +2,19 @@
 	(version 20251024)
 	(generator "kicad_symbol_editor")
 	(generator_version "10.0")
-	(symbol "led_template"
-		(pin_numbers
-			(hide yes)
-		)
-		(pin_names
-			(hide yes)
-		)
+	(symbol "PTS647SN50SMTR2 LFS"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "D"
-			(at 0 5.08 0)
+		(jumper_pin_groups
+			()
+			("1" "2")
+			("3" "4")
+		)
+		(property "Reference" "SW"
+			(at 0 3.81 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -24,17 +23,17 @@
 				)
 			)
 		)
-		(property "Value" "${COLOR}"
-			(at 0 2.54 0)
+		(property "Value" ""
+			(at 0 0 0)
 			(show_name no)
-			(do_not_autoplace yes)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "electromechanical_switch:PTS647SN50SMTR2 LFS"
 			(at 0 -5.08 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -45,7 +44,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/library/datasheet/Littelfuse_PTS647_Series.pdf"
 			(at 0 -7.62 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -56,7 +55,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode LED ${COLOR} V_{F} ${FORWARD VOLTAGE} I_{F} ${FORWARD CURRENT} V_{R} ${REVERSE VOLTAGE} ${MINIMUM TEMPERATURE} ${MAXIMUM TEMPERATURE} ${PACKAGE} ${RATINGS}"
+		(property "Description" "Switch ${TYPE} ${MAXIMUM VOLTAGE} ${MAXIMUM CURRENT} ${MINIMUM TEMPERATURE} ${MAXIMUM TEMPERATURE} ${PACKAGE}"
 			(at 0 -2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -67,7 +66,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "[MANUFACTURER]"
+		(property "Manufacturer" "Littelfuse / C&K"
 			(at 0 -10.16 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -78,7 +77,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "[MANUFACTURER PART NUMBER]"
+		(property "Manufacturer Part Number" "PTS647SN50SMTR2 LFS"
 			(at 0 -12.7 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -89,7 +88,7 @@
 				)
 			)
 		)
-		(property "Forward Current" "[FORWARD CURRENT]A"
+		(property "Type" "Tactile SPST-NO"
 			(at 0 -15.24 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -100,7 +99,7 @@
 				)
 			)
 		)
-		(property "Reverse Voltage" "[REVERSE VOLTAGE]V"
+		(property "Maximum Voltage" "12V"
 			(at 0 -17.78 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -111,7 +110,7 @@
 				)
 			)
 		)
-		(property "Forward Voltage" "[FORWARD VOLTAGE]V"
+		(property "Maximum Current" "0.05A"
 			(at 0 -20.32 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -122,7 +121,7 @@
 				)
 			)
 		)
-		(property "Color" "[COLOR]"
+		(property "Minimum Temperature" "-40°C"
 			(at 0 -22.86 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -133,7 +132,7 @@
 				)
 			)
 		)
-		(property "Minimum Temperature" "[MINIMUM TEMPERATURE]°C"
+		(property "Maximum Temperature" "+85°C"
 			(at 0 -25.4 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -144,7 +143,7 @@
 				)
 			)
 		)
-		(property "Maximum Temperature" "[MAXIMUM TEMPERATURE]°C"
+		(property "Package" "4.5mm x 4.5mm"
 			(at 0 -27.94 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -155,7 +154,7 @@
 				)
 			)
 		)
-		(property "Package" "[PACKAGE]"
+		(property "Ratings" "N/A"
 			(at 0 -30.48 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -166,7 +165,7 @@
 				)
 			)
 		)
-		(property "Ratings" "[RATINGS]"
+		(property "Mass" "N/A"
 			(at 0 -33.02 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -177,21 +176,10 @@
 				)
 			)
 		)
-		(property "Mass" "[MASS]g"
-			(at 0 -35.56 0)
-			(show_name yes)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(symbol "led_template_0_1"
+		(symbol "PTS647SN50SMTR2 LFS_0_1"
 			(polyline
 				(pts
-					(xy -0.635 -0.762) (xy -0.635 0.762) (xy 0.635 0) (xy -0.635 -0.762)
+					(xy -1.27 1.27) (xy 1.27 1.27)
 				)
 				(stroke
 					(width 0)
@@ -203,7 +191,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0.635 0.762) (xy 0.635 -0.762)
+					(xy 0 1.27) (xy 0 1.905)
 				)
 				(stroke
 					(width 0)
@@ -214,13 +202,35 @@
 				)
 			)
 		)
-		(symbol "led_template_1_1"
+		(symbol "PTS647SN50SMTR2 LFS_1_1"
 			(polyline
 				(pts
-					(xy -0.254 0.762) (xy 0 1.016) (xy 0 0.889) (xy -0.127 1.016) (xy 0 1.016)
+					(xy -1.524 0) (xy -2.54 0)
 				)
 				(stroke
-					(width 0.0762)
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -1.27 0)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 1.27 0)
+				(radius 0.254)
+				(stroke
+					(width 0)
 					(type solid)
 				)
 				(fill
@@ -229,19 +239,19 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0.635) (xy 0.254 0.889) (xy 0.254 0.762) (xy 0.127 0.889) (xy 0.254 0.889)
+					(xy 2.54 0) (xy 1.524 0)
 				)
 				(stroke
-					(width 0.0762)
-					(type solid)
+					(width 0)
+					(type default)
 				)
 				(fill
 					(type none)
 				)
 			)
 			(pin passive line
-				(at 2.54 0 180)
-				(length 1.905)
+				(at -5.08 0 0)
+				(length 2.54)
 				(name ""
 					(effects
 						(font
@@ -252,14 +262,15 @@
 				(number "1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.635 0.635)
 						)
 					)
 				)
 			)
 			(pin passive line
-				(at -2.54 0 0)
-				(length 1.905)
+				(at -5.08 0 0)
+				(length 2.54)
+				(hide yes)
 				(name ""
 					(effects
 						(font
@@ -270,7 +281,44 @@
 				(number "2"
 					(effects
 						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
 							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(hide yes)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.635 0.635)
 						)
 					)
 				)

@@ -2,14 +2,14 @@
 	(version 20251024)
 	(generator "kicad_symbol_editor")
 	(generator_version "10.0")
-	(symbol "TPS62130AQRGTRQ1"
+	(symbol "S25FL256LAGNFM010"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at 0 11.43 0)
+			(at 0 10.16 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -19,7 +19,7 @@
 			)
 		)
 		(property "Value" "${MANUFACTURER PART NUMBER}"
-			(at 0 -11.43 0)
+			(at 0 -10.16 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -28,8 +28,8 @@
 				)
 			)
 		)
-		(property "Footprint" "ic_power:TPS62130AQRGTRQ1"
-			(at 0 -16.51 0)
+		(property "Footprint" "ic_memory:S25FL256LAGNFM010"
+			(at 0 -15.24 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -39,8 +39,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/library/datasheet/Texas_Instruments_TPS6213xA-Q1.pdf"
-			(at 0 -19.05 0)
+		(property "Datasheet" "${KIPRJMOD}/library/datasheet/S25FL128L_S25FL256L.pdf"
+			(at 0 -17.78 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -50,8 +50,8 @@
 				)
 			)
 		)
-		(property "Description" "DC/DC ${TOPOLOGY} Converter V_{in} ${INPUT VOLTAGE} V_{out} ${OUTPUT VOLTAGE} I_{out} ${OUTPUT CURRENT} ${MINIMUM TEMPERATURE} ${MAXIMUM TEMPERATURE} ${PACKAGE}"
-			(at 0 -13.97 0)
+		(property "Description" "Memory ${TYPE} ${VOLTAGE} ${} ${MEMORY SIZE} ${MEMORY LAYOUT} ${FREQUENCY} ${MINIMUM TEMPERATURE} ${MAXIMUM TEMPERATURE} ${PACKAGE} ${RATINGS}"
+			(at 0 -12.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -61,8 +61,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Texas Instruments"
-			(at 0 -21.59 0)
+		(property "Manufacturer" "Infineon"
+			(at 0 -20.32 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -72,8 +72,63 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "TPS62130AQRGTRQ1"
-			(at 0 -24.13 0)
+		(property "Manufacturer Part Number" "S25FL256LAGNFM010"
+			(at 0 -22.86 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "NOR Flash"
+			(at 0 -25.4 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "2.7-3.3V"
+			(at 0 -27.94 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Memory Size" "256Mbit"
+			(at 0 -30.48 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Memory Layout" "32Mbit x 8"
+			(at 0 -33.02 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Frequency" "133MHz"
+			(at 0 -35.56 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -84,7 +139,7 @@
 			)
 		)
 		(property "Minimum Temperature" "-40°C"
-			(at 0 -36.83 0)
+			(at 0 -38.1 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -95,7 +150,7 @@
 			)
 		)
 		(property "Maximum Temperature" "+125°C"
-			(at 0 -39.37 0)
+			(at 0 -40.64 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -105,63 +160,8 @@
 				)
 			)
 		)
-		(property "Package" "VQFN-16"
-			(at 0 -41.91 0)
-			(show_name yes)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Input Voltage" "3.0-17.0V"
-			(at 0 -29.21 0)
-			(show_name yes)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mass" "0.24g"
-			(at 0 -46.99 0)
-			(show_name yes)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Output Voltage" "0.9-6.0V"
-			(at 0 -31.75 0)
-			(show_name yes)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Output Current" "3.0A"
-			(at 0 -34.29 0)
-			(show_name yes)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Topology" "Buck"
-			(at 0 -26.67 0)
+		(property "Package" "8-WSON (6x8)"
+			(at 0 -43.18 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -172,7 +172,7 @@
 			)
 		)
 		(property "Ratings" "AEC-Q100"
-			(at 0 -44.45 0)
+			(at 0 -45.72 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -182,8 +182,8 @@
 				)
 			)
 		)
-		(property "Sim.Library" "library/simulation/ic/power/TPS62130AQRGTRQ1.LIB"
-			(at 0 -54.61 0)
+		(property "Mass" "1.361g"
+			(at 0 -48.26 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(hide yes)
@@ -193,55 +193,67 @@
 				)
 			)
 		)
-		(property "Sim.Name" "TPS62130A_TRANS"
-			(at 0 -49.53 0)
-			(show_name yes)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
+		(symbol "S25FL256LAGNFM010_1_0"
+			(pin input line
+				(at 10.16 -6.35 180)
+				(length 5.08)
+				(name "CS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 0 -52.07 0)
-			(show_name yes)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=SW1 2=SW2 3=SW3 4=PG 5=FB 6=AGND 7=FSW 8=DEF 9=SS_TR 10=AVIN 11=PVIN1 12=PVIN2 13=EN 14=VOS 15=PGND1 16=PGND2 17=ETPAD"
-			(at 0 -57.15 0)
-			(show_name yes)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(symbol "TPS62130AQRGTRQ1_1_1"
-			(rectangle
-				(start -6.35 10.16)
-				(end 6.35 -10.16)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type background)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
 			)
 			(pin output line
-				(at 11.43 2.54 180)
+				(at 10.16 1.27 180)
 				(length 5.08)
-				(name "PG"
+				(name "SO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IO1" bidirectional line)
+			)
+			(pin input line
+				(at 10.16 -1.27 180)
+				(length 5.08)
+				(name "~{WP}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IO2" bidirectional line)
+			)
+			(pin power_in line
+				(at -10.16 -6.35 0)
+				(length 5.08)
+				(name "VSS"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -257,9 +269,9 @@
 				)
 			)
 			(pin input line
-				(at 11.43 0 180)
+				(at 10.16 3.81 180)
 				(length 5.08)
-				(name "FB"
+				(name "SI"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -273,11 +285,12 @@
 						)
 					)
 				)
+				(alternate "IO0" bidirectional line)
 			)
-			(pin power_in line
-				(at 11.43 -2.54 180)
+			(pin input line
+				(at 10.16 6.35 180)
 				(length 5.08)
-				(name "AGND"
+				(name "SCK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -292,10 +305,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at -11.43 -5.08 0)
+			(pin bidirectional line
+				(at 10.16 -3.81 180)
 				(length 5.08)
-				(name "FSW"
+				(name "IO3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -309,11 +322,12 @@
 						)
 					)
 				)
+				(alternate "~{RESET}" input line)
 			)
-			(pin input line
-				(at -11.43 -2.54 0)
+			(pin power_in line
+				(at -10.16 6.35 0)
 				(length 5.08)
-				(name "DEF"
+				(name "VCC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -328,10 +342,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at -11.43 0 0)
+			(pin passive line
+				(at -10.16 -3.81 0)
 				(length 5.08)
-				(name "SS/TR"
+				(name "EP"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -346,130 +360,17 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -11.43 5.08 0)
-				(length 5.08)
-				(name "AVIN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
+		)
+		(symbol "S25FL256LAGNFM010_1_1"
+			(rectangle
+				(start -5.08 8.89)
+				(end 5.08 -8.89)
+				(stroke
+					(width 0)
+					(type solid)
 				)
-				(number "10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -11.43 2.54 0)
-				(length 5.08)
-				(name "EN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 11.43 5.08 180)
-				(length 5.08)
-				(name "VOS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 11.43 -7.62 180)
-				(length 5.08)
-				(name "EP"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "17"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at 11.43 7.62 180)
-				(length 5.08)
-				(name "SW"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "[1,2,3]"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -11.43 7.62 0)
-				(length 5.08)
-				(name "PVIN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "[11,12]"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 11.43 -5.08 180)
-				(length 5.08)
-				(name "PGND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "[15,16]"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
+				(fill
+					(type background)
 				)
 			)
 		)
