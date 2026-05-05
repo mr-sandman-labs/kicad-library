@@ -182,6 +182,50 @@
 				)
 			)
 		)
+		(property "Sim.Library" "library/simulation/ic/power/TPS62130AQRGTRQ1.LIB"
+			(at 0 -54.61 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" "TPS62130A_TRANS"
+			(at 0 -49.53 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 0 -52.07 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=SW1 2=SW2 3=SW3 4=PG 5=FB 6=AGND 7=FSW 8=DEF 9=SS_TR 10=AVIN 11=PVIN1 12=PVIN2 13=EN 14=VOS 15=PGND1 16=PGND2 17=ETPAD"
+			(at 0 -57.15 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(symbol "TPS62130AQRGTRQ1_1_1"
 			(rectangle
 				(start -6.35 10.16)
