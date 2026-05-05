@@ -8,7 +8,7 @@
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "09751368-f71d-4355-8db8-0536a8bb3b73")
+		(uuid "811e2654-2b33-4e41-b8a3-9c9bb291db28")
 		(effects
 			(font
 				(size 1 1)
@@ -21,7 +21,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "57b8b7fe-31fa-46c9-84e2-1c7a9adbb04f")
+		(uuid "41f116bb-07da-4612-bf07-66541b671020")
 		(effects
 			(font
 				(size 1 1)
@@ -34,7 +34,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "af5ff70e-c865-459a-be2c-7bdfba007315")
+		(uuid "174bbedd-d445-49aa-b5c1-ce592e362f3a")
 		(effects
 			(font
 				(size 1 1)
@@ -47,7 +47,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "0696df1a-e59c-4d5e-adec-249ede79a5b9")
+		(uuid "733cf0ca-a6cb-4492-ac13-786d4910a101")
 		(effects
 			(font
 				(size 1 1)
@@ -66,7 +66,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "e8360c26-9bcc-4eb0-929a-fbf983303630")
+		(uuid "ae431d66-fe41-46fe-bd9f-8f6bf452857f")
 	)
 	(fp_rect
 		(start -4.25 -1.75)
@@ -77,13 +77,13 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "e5e8dcb1-64b0-44b0-9096-bfeaa6cbbec3")
+		(uuid "18f03187-a03d-459c-80a4-f69a668e4943")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "0d967f5d-263b-46d8-a283-39991c861bac")
+		(uuid "f3d4e22b-d5a0-4750-8ef0-ebc8e927a56d")
 		(effects
 			(font
 				(size 0.25 0.25)
@@ -96,24 +96,24 @@
 		(size 1 2.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "fac20172-dc03-4c86-841a-08ec578a06af")
+		(uuid "9532e3aa-1a8f-4a42-9d79-0488f0f9024b")
 	)
 	(pad "2" smd roundrect
 		(at 0 -2.75)
 		(size 1 2.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "ac73b425-a270-4c81-983b-fcc078194cc2")
+		(uuid "921ac0b8-950a-4756-a05b-6d8afe9091ee")
 	)
 	(pad "3" smd roundrect
 		(at 2.5 2.75)
 		(size 1 2.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "2d34298b-955b-4503-b8b4-dcd97174d345")
+		(uuid "59912eea-98a2-463e-8100-8cda03bd7c82")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/library/model/electromechanical/JS102011SCQN.step"
+	(model "${KIPRJMOD}/library/model/electromechanical/switch/JS102011SCQN.step"
 		(offset
 			(xyz 0 0 0.254)
 		)

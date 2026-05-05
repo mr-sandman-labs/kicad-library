@@ -29,7 +29,7 @@
 				)
 			)
 		)
-		(property "Footprint" "electromechanical:JS102011SCQN"
+		(property "Footprint" "electromechanical_switch:JS102011SCQN"
 			(at 0 -6.35 0)
 			(show_name yes)
 			(do_not_autoplace no)
