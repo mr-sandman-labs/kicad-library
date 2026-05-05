@@ -33,7 +33,7 @@
 				)
 			)
 		)
-		(property "Footprint" "electromechanical:PTS647SN50SMTR2 LFS"
+		(property "Footprint" "electromechanical_switch:PTS647SN50SMTR2 LFS"
 			(at 0 -5.08 0)
 			(show_name yes)
 			(do_not_autoplace no)

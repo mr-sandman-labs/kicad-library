@@ -8,7 +8,7 @@
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "1bdeaba8-1783-42af-9f22-0dbf2cea14a8")
+		(uuid "b5a80e27-12e4-4c25-b775-8c7b910a1274")
 		(effects
 			(font
 				(size 1 1)
@@ -21,7 +21,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "7189b491-3368-492e-8628-51d27660d267")
+		(uuid "cf921f7f-101c-408b-8d9e-c3e5a832abd4")
 		(effects
 			(font
 				(size 1 1)
@@ -34,7 +34,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "bab655e8-48d2-4a02-8298-f070f6028665")
+		(uuid "f6e83b7c-0985-4822-8326-5146384a4347")
 		(effects
 			(font
 				(size 1 1)
@@ -47,7 +47,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "bebc008d-f6f2-4145-a3c3-15dcfe0b2169")
+		(uuid "1c4d6887-e9f3-46bd-85cb-f88d931d7574")
 		(effects
 			(font
 				(size 1 1)
@@ -66,7 +66,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "d1606672-f727-48a8-95b6-ece8e861d5aa")
+		(uuid "1e553c56-b58c-403e-9722-6ad376d9bdde")
 	)
 	(fp_rect
 		(start -2.25 -2.25)
@@ -77,13 +77,13 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "7656d682-b6b1-40c2-8af5-dd9af1dcd260")
+		(uuid "64ebeadd-4716-47e9-9796-3a84403813f3")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "1128b23d-b945-4104-a626-d3fad5f1e069")
+		(uuid "c8c49ffc-33f7-44cf-ba34-3e47ccad5caa")
 		(effects
 			(font
 				(size 0.25 0.25)
@@ -97,7 +97,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
-		(uuid "f4c678cb-5e58-45da-91ca-61d1f0e20882")
+		(uuid "9ddb757e-809c-4f81-83bb-f45b0ccaaacf")
 	)
 	(pad "2" smd roundrect
 		(at 2.625 -1.6)
@@ -105,7 +105,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
-		(uuid "033c2359-c3cd-4a0f-8cd4-936875892af7")
+		(uuid "adef61c8-c3ca-4944-8211-4648ab431d07")
 	)
 	(pad "3" smd roundrect
 		(at -2.625 1.6)
@@ -113,7 +113,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
-		(uuid "e3ef041c-35b6-4cec-bab7-faec7feec713")
+		(uuid "00f77202-8472-4078-88d4-7e8029014488")
 	)
 	(pad "4" smd roundrect
 		(at 2.625 1.6)
@@ -121,10 +121,10 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
-		(uuid "e777fe82-c148-4084-87fe-799849d3ac13")
+		(uuid "d8f93215-a719-445a-a610-460f500b5b35")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/library/model/electromechanical/PTS647SN50SMTR2 LFS.step"
+	(model "${KIPRJMOD}/library/model/electromechanical/switch/PTS647SN50SMTR2 LFS.step"
 		(offset
 			(xyz 0 0 0)
 		)
