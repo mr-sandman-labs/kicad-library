@@ -50,7 +50,7 @@
 				)
 			)
 		)
-		(property "Description" "Power Monitor V_{cc} ${VOLTAGE} V_{bus} ${BUS VOLTAGE} ${RESOLUTION} ${MINIMUM TEMPERATURE} ${MAXIMUM TEMPERATURE} ${PACKAGE} ${RATINGS}"
+		(property "Description" "Power Monitor V_{CC} ${VOLTAGE} V_{BUS} ${BUS VOLTAGE} ${RESOLUTION} ${MINIMUM TEMPERATURE} ${MAXIMUM TEMPERATURE} ${PACKAGE} ${RATINGS}"
 			(at 0 -13.97 0)
 			(show_name no)
 			(do_not_autoplace no)
