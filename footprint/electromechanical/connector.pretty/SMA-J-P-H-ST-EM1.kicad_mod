@@ -1,0 +1,168 @@
+(footprint "SMA-J-P-H-ST-EM1"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "5ba24d93-de5a-4d05-94be-c1803d2634e7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SMA-J-P-H-ST-EM1"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "791da0f0-76a9-4992-93d3-ca950c0bf36c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2acd4d1e-7380-48c1-8212-11d34fd402d6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9ef3c8e9-9022-47bc-aa65-4812b39dacce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -4 -4.7)
+		(end 4 10.02)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "374eecc1-bd70-4265-ba63-2711f5150ef6")
+	)
+	(fp_rect
+		(start -3.175 -3.81)
+		(end -2.365 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "88941314-2032-4c81-ac68-940102925f7f")
+	)
+	(fp_rect
+		(start -3.175 0)
+		(end 3.175 9.52)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "c50dd207-4a30-4c5c-980f-f299ea90b65f")
+	)
+	(fp_rect
+		(start -0.635 -3.556)
+		(end 0.635 -0.006)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "906fde00-acfb-46f1-8049-be0afe3bfcb1")
+	)
+	(fp_rect
+		(start 2.365 -3.81)
+		(end 3.175 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "7ec464da-bc62-49a4-afac-0e86120411ad")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -3.937 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a386d7cb-4dd1-420f-b47b-960bcacc19b8")
+		(effects
+			(font
+				(size 0.25 0.25)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 -1.9 180)
+		(size 1.27 3.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e2d12272-5d1c-4d13-8276-1ce81c892260")
+	)
+	(pad "2" smd rect
+		(at -2.825 -2.1 180)
+		(size 1.35 4.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5d27e0f1-abf6-4d1c-858a-d874b9959e54")
+	)
+	(pad "2" smd rect
+		(at -2.825 -2.1 180)
+		(size 1.35 4.2)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(uuid "e23425ac-9a4f-456b-9006-0fdb9223a423")
+	)
+	(pad "2" smd rect
+		(at 2.825 -2.1 180)
+		(size 1.35 4.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6989d325-927f-4ee6-b4d8-548d61375475")
+	)
+	(pad "2" smd rect
+		(at 2.825 -2.1 180)
+		(size 1.35 4.2)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(uuid "e4d8f4b2-5a8d-4570-ac6d-8d1e894a3092")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/library/model/electromechanical/connector/SMA-J-P-H-ST-EM1.step"
+		(offset
+			(xyz 0 1.9 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
