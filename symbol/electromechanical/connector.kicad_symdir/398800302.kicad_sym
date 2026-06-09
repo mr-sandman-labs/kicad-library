@@ -21,7 +21,7 @@
 				)
 			)
 		)
-		(property "Value" "398800302"
+		(property "Value" "${MANUFACTURER PART NUMBER}"
 			(at 0 3.81 0)
 			(show_name no)
 			(do_not_autoplace yes)
